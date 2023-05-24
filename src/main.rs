@@ -25,10 +25,10 @@ async fn main() {
     let mut last_update = get_time();
     let mut gameover = false;
 
-    let up = (0, -1);
-    let down = (0, 1);
-    let left = (-1, 0);
-    let right = (1, 0);
+    let _up = (0, -1);
+    let _down = (0, 1);
+    let _left = (-1, 0);
+    let _right = (1, 0);
 
     loop {
         if !gameover {
